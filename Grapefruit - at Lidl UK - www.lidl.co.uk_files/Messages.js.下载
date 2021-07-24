@@ -1,0 +1,173 @@
+define({
+    slogan: "",
+    close: "Close",
+    loading: "Loading",
+    video: {start: "Play video", defaultTitle: "Video default title"},
+    videoThreesixtyControls: {
+        previous: "Three-Sixty video controls previous label",
+        play: "Three-Sixty video controls play label",
+        stop: "Three-Sixty video controls stop label",
+        next: "Three-Sixty video controls next label",
+        overlay: "Three-Sixty video controls overlay label"
+    },
+    storeSearch: {
+        mapCenter: {latitude: 53.134932, longitude: -1.204496, zoomLevel: 6},
+        suggestionManagerOptions: {placeSuggestions: true, addressSuggestions: true},
+        currentPosition: "My current position",
+        distance: "Distance",
+        yourStore: "Your Store",
+        marker: "Marker",
+        results: "Your Results",
+        selectstore: "Select store label",
+        storesearch: "Store search",
+        findstore: "Find store",
+        city: "City",
+        street: "Street",
+        radius: "Radius",
+        showzipcode: "true",
+        zipcode: "Postcode",
+        useCurrentLocation: "Use current position",
+        map: "Map",
+        list: "List",
+        showmap: "Show map",
+        openingHours: "Opening hours",
+        address: "Address",
+        showmorelink: {showmore: "Show more", showless: "Show less"},
+        openinghours: {text: "Opening hours", closed: "Closed", oclock: "Time"},
+        infolinks: {
+            title: "Further information",
+            route: "Directions",
+            assortment: "Offers",
+            assortmentLink: "/en",
+            leaflet: "Leaflet",
+            leafletLink: "/online-leaflets",
+            operator: "Address",
+            storeOperator: "Store operator",
+            controlReport: ""
+        },
+        facilities: {
+            title: "Facilities",
+            parking: "Parking",
+            "disabled-parking": "Disabled Parking",
+            bake: "Fresh Bakery",
+            basket: "Basket",
+            tax: "Tax",
+            packstation: "Pack Station",
+            assortment: "Non-food offers",
+            hotdrinks: "Hot Drinks",
+            echarger: "e-charger",
+            "lidl-plus": "Lidl Plus",
+            hot2go: "Hot2Go",
+            "shop-and-go": "Shop and Go"
+        },
+        days: {
+            monday: "Mon",
+            tuesday: "Tue",
+            wednesday: "Wed",
+            thursday: "Thu",
+            friday: "Fri",
+            saturday: "Sat",
+            sunday: "Sun",
+            weekdays: "Mon-Fri"
+        },
+        mystore: {title: "My Store", delete: "Delete my store", choose: "Choose my store", map: " My store map label"},
+        queryWarnings: {
+            noLocationFound: "No location found",
+            noStoreFound: "No stores found",
+            noLocationFoundForVacationCountry: "",
+            noStoreFoundIn10: "Sorry, we couldn&#39;t find a store within 10 miles of this location. Please try searching again.",
+            noStoreFoundIn20: "Sorry, we couldn&#39;t find a store within 20 miles of this location. Please try searching again.",
+            noStoreFoundIn50: "Sorry, we couldn&#39;t find a store within 50 miles of this location. Please try searching again.",
+            noStoreFoundIn100: "Sorry, we couldn&#39;t find a store within 100 miles of this location. Please try searching again.",
+            noInput: "Please enter a city",
+            deactivatedLocationServices: "Geo localization not authorized",
+            noLocationServices: "Geo location not possible",
+            noLocationServicesAndroid: "",
+            noCookiesAllowed: "Cookies not allowed. Please change your settings."
+        }
+    },
+    storeRating: {
+        mapCenter: {latitude: 53.134932, longitude: -1.204496, zoomLevel: 6},
+        suggestionManagerOptions: {placeSuggestions: true, addressSuggestions: true},
+        distance: 'Distance',
+        city: 'City',
+        street: 'Street',
+        radius: 'Radius',
+        zipcode: 'Zip code',
+        away: 'away',
+        rateButton: 'Rate your store',
+        useCurrentLocation: 'Use current location',
+        address: 'Address',
+        mystore: {
+            title: 'My store'
+        },
+        queryWarnings: {
+            noLocationFound: 'No location could be found for this request.',
+            noStoreFound: 'No stores were found for this request.',
+            noLocationFoundForVacationCountry: 'No location could be found for this request. Please check if ' +
+                'your search criteria (zip code, location and street) match the country.',
+            noStoreFoundIn10: 'No stores were found within a radius of 10 miles.',
+            noStoreFoundIn20: 'No stores were found within a radius of 20 miles.',
+            noStoreFoundIn50: 'No stores were found within a radius of 50 miles.',
+            noStoreFoundIn100: 'No stores were found within a radius of 100 miles.',
+            noInput: 'Please enter city or Zip Code.',
+            deactivatedLocationServices: 'Browser Geolocation is not authorized. Please enter a city or zipcode ' +
+                'in order to find stores.',
+            noLocationServices: 'Browser Geolocation not available. Please enter a city or zipcode in order to find stores.',
+            noLocationServicesAndroid: 'Browser Geolocation not available. You may need to activate "High accuracy" ' +
+                'for location services in your device settings to use this service.',
+            noCookiesAllowed: 'This function requires Cookies. ' +
+                'Please allow the use of the cookies to bookmark this store.'
+        }
+    },
+    shopredirect: {heading: "", text: "", button: "",},
+    selectstore: {
+        heading: "Your store selection has been saved.",
+        buttonYes: "Close"
+    },
+    agerestriction: {
+        heading: 'Please tick the box below to confirm that you are over 18 years of age.',
+        text: 'There is age restricted content on this page which requires you to be 18 years or older',
+        buttonLeavePage : 'Leave page',
+        buttonGotoPage: 'I am 18 years old or over',
+        saveCookie: 'We use cookies to improve your experience on our website. By continuing to browse this website you consent to our use of cookies in accordance with our cookies policy.',
+        inputCookie: "Don't show again.",
+        link:'More Information ',
+        linkHref:"/about-us/legal-compliance-data-protection/data-protection/cookie-notice",
+        linkLeave:"/lidl-digital-gb/united-kingdom-uk",
+        title: 'I am 18 years old or over',
+    },
+    chat:{
+        heading:'LIVE CHAT',
+        title:'Chat now',
+        buttonChatNow:'CHAT NOW',
+        hintConnect:'Establishing service...',
+        hintError:'Can&#39;t connect to chat server!',
+        hintRequired:'Please complete all required fields',
+        hintConnected:'Service available!',
+        footnotes:'By continuing to browse this website you consent to our use of cookies in accordance with our cookies policy.',
+        hrefTextFootnotes:'CLICK',
+        hrefFootnotes:'#',
+        optional:'(optional)',
+        lastName:'Lastname',
+        firstName:'Firstname',
+        eMail:'E-Mail',
+        phoneNumber:'Customer Number',
+        mr:'Mr.',
+        mrs:'Mrs.',
+        choose:'choose'
+    },
+    leaflet: {openFlyer: "Read online", downloadFile: "Download PDF", error: {title: "", body: ""}},
+    navigation: {storefinder: {indicator: {noStore: "Please choose a store", myStore: "Selected store"}}},
+    coupons: {
+        detail: {
+            productsTitle: "Items included",
+            daysRemaining: "{{X}} days left",
+            accordion: {
+                openTitle: "",
+                closeTitle: ""
+            }
+        }
+    },
+    dynamicproduct: {detail: {codes: "Items included"}}
+});

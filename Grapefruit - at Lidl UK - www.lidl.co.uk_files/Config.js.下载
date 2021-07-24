@@ -1,0 +1,60 @@
+define({
+    paths: {
+        images: "/bundles/cakecomponents/dist/images/",
+        iconSprite: "/bundles/cakecomponents/dist/images/icon__sprite.svg",
+        flyerSystem: {
+            backendUrl: "https://www.lidl-flyer.com",
+            overviewRequestUrl: "https://media.lidl-flyer.com/overview/en-GB.jsonp"
+        }
+    },
+    cookies: {
+        strictAllowCookiesHandling: true
+    },
+    iFrameAllowedOrigins: [
+        "http://lidl-offering-master.dus.intentive.de",
+        "http://localhost:3000",
+        "https://www.secrz.de",
+        "https://form.lidl.com",
+        "http://specials.lidl.com",
+        "https://lidl.co.uk",
+        "https://www.lidl.co.uk",
+        "http://lidl.co.uk",
+        "http://www.lidl.co.uk",
+        "http://preview-3x-uk.asp.lidl.net",
+        "https://detergents.lidl",
+        "https://letswow.com",
+        "http://letswow.com",
+        "https://www.letswow.com",
+        "http://www.letswow.com",
+        "https://poi-service.de",
+        "http://poi-service.de",
+        "https://ats.ccmp.eu",
+        "http://www.needlefresh.co.uk",
+        "https://www.needlefresh.co.uk",
+        "https://lidl.mcxplatform.de"
+    ],
+    coupons: {url: 'https://content.lidlplus.com/v1/GB/coupons', jsonp: false, jsonpCallback: 'couponsData'},
+    dynamictext: {
+        url: '',
+        app: 'www.lidl.co.uk',
+        appVersion: '50.0.0',
+        operatingSystem: 'Android',
+        jsonp: false,
+        jsonpCallback: 'dynamictextData',
+        mapping: {
+            preTitle: 'RedemptionDateTime###Date',
+            title: ['FirstName', ' ', 'LastName', ' ', 'DiscountText'],
+            description: 'StoreAddress'
+        }
+    },
+    dynamicproduct: {
+        url: "https://content.lidlplus.com/v3/UK/lidlplusprices?storeKey=0345",
+        jsonp: false,
+        jsonpCallback: 'dynamicproductData'
+    },
+    footnotes: {
+        url: "/legends",
+        client: "uk",
+        language: "en"
+    }
+});
